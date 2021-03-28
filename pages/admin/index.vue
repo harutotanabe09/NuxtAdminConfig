@@ -2,38 +2,14 @@
   <div class="container">
     <div>
       <h1 class="title">admin-project</h1>
-      <app-button type="danger">ボタン</app-button><br />
-      <app-button type="secondary">ボタン</app-button><br />
-      <app-button type="primary">ボタン</app-button><br />
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import AppButton from '~/components/ui/AppButton.vue'
 
-export default Vue.extend({
-  components: { AppButton },
-})
+export default Vue.extend({})
 </script>
 
 <style scoped="scss">
