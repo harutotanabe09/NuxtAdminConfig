@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">admin-project</h1>
+      <app-button type="danger">ボタン</app-button><br />
+      <app-button type="secondary">ボタン</app-button><br />
+      <app-button type="primary">ボタン</app-button><br />
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -27,11 +29,14 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import AppButton from '~/components/ui/AppButton.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: { AppButton },
+})
 </script>
 
-<style>
+<style scoped="scss">
 .container {
   margin: 0 auto;
   min-height: 100vh;
