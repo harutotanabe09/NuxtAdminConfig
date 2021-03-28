@@ -30,12 +30,12 @@ $skyblue: #429fd9;
 $skyblue-2: #c1f5ff;
 $skyblue-3: #e1e9f8;
 $light-skyblue: #27c3eb;
-$link-hover: #53BEFF;
-$blue-7: #3B9CFF;
+$link-hover: #53beff;
+$blue-7: #3b9cff;
 $dark-blue-color: #434a5e;
 $light-green-color: #daface;
 $green: #0ead00;
-$green-2: #8AD513;
+$green-2: #ffd753;
 $light-green: #daface;
 $red: #fd4949;
 $light-red: #ffdada;
@@ -43,7 +43,7 @@ $danger-color: #ee6b5e;
 $orange: #ff7926;
 $lighter-orange: #f48d16;
 $light-orange: #ffb44d;
-$light-orange2: #FFD753;
+$light-orange2: #ffd753;
 $input-border-color: #afafaf;
 $gray: #afafaf;
 $gray-2: #ccc;
@@ -55,8 +55,8 @@ $gray-7: #434a5e;
 $gray-8: #95989a;
 $gray-9: #d8d8d8;
 $gray-10: #adadad;
-$gray-11: #F0F1F2;
-$gray-12: #E1E5EB;
+$gray-11: #f0f1f2;
+$gray-12: #e1e5eb;
 $gray-color: #888;
 $dark-gray: #707070;
 $light-gray-color: #dbdbdb;
@@ -121,25 +121,6 @@ $lh-10: 10px;
 $lh-11: 11px;
 $lh-12: 12px;
 $lh-14: 14px;
-$lh-15: 15px;
-$lh-16: 16px;
-$lh-17: 17px;
-$lh-18: 18px;
-$lh-19: 19px;
-$lh-20: 20px;
-$lh-24: 24px;
-$lh-26: 26px;
-$lh-27: 27px;
-$lh-31: 31px;
-$lh-32: 32px;
-$lh-33: 33px;
-$lh-34: 34px;
-$lh-35: 35px;
-$lh-37: 37px;
-$lh-41: 41px;
-$lh-50: 50px;
-$lh-55: 55px;
-$lh-57: 57px;
 
 // Border
 //
@@ -164,38 +145,10 @@ $header-height: 50px;
 // Footer
 $footer-height: 41px;
 
-// ========== Common CP Styles ==========
-//
-// For common usage.
-// Must be prefixed by single underscore and named as: ${goods name}_{category}
-
 // Category: body
 $font-size-body: $font-size-normal;
 $text-body: $black-color;
 $bg-body: linear-gradient(30deg, $bg-gray 50%, $bg-white);
-
-// Category: h2
-$font-size-h2: $font-size-large;
-$font-weight-h2: $font-weight-600;
-
-// Category: AppInput
-$bg-app-input: $white-color;
-$bg-app-input-invalid: $error-bg-color;
-$lh-app-input: $lh-14;
-$text-app-input-placeholder: $placeholder-color;
-$text-app-input-error: $error-color;
-
-// Category: input
-$input-padding: 7px 10px;
-$input-bg: #fff;
-$input-border: solid 1px $input-border-color;
-$input-border-radius: 12px;
-$input-line-height: 14px;
-$input-shadow-color: #7c7c7c29;
-$required-bg-color: rgba($required-color, 0.2);
-$optional-color: $dark-blue-color;
-$optional-bg-color: #dbdbdb;
-$mark-font-size: 9px;
 
 // Category: button
 $button-default-color: #434a5e;
@@ -204,139 +157,10 @@ $button-background-primary-to: #29a4ef;
 $button-background-secondary-from: #f48d16;
 $button-background-secondary-to: #ffb44d;
 
-// Category: header
-$user-img-size-header: 32px;
-$bg-header: $white-color;
-$box-shadow-header-dropdown: 0 3px 9px $black-transparent-light;
-$text-header-user-dept: $dark-blue-color;
-$text-header-user-logout: $primary-color;
-
-// Category: footer
-$font-size-footer: $font-size-small;
-$lh-footer: $lh-41;
-$line-height-footer: 41px;
-$text-footer: $white-color;
-$bg-footer: $dark-blue-color;
-$border-footer: $white-color;
-$border-width-footer: $border-wdith-default;
-
-// Category: error
-$font-size-error-large: 40px;
-$font-size-error-xlarge: 130px;
-$bg-error-color: #fff;
-$bg-error-color-back: #797a7a;
-$text-error-message: #4e4e4e;
-$bg-error-background: #f8f8f8;
-
-// Category: v-select
-$select-height: 38px;
-$vs-component-line-height: 25px;
-$vs-border-radius: $input-border-radius;
-$vs-border-color: $input-border-color;
-$vs-controls-color: $dark-blue-color;
-$vs-controls-size: 0.8;
-
-// Category: table
-$bg-table-head: $default-color;
-$text-color-table: $dark-blue-color;
-$bg-table-selected: $primary-color-light;
-
-// ========== Common SP Styles ==========
-//
-// For common usage.
-// Must be prefixed by single underscore and named as: ${goods name}_{category}
-$bg-sp-menu: $light-gray-color;
-
-// ========== Specific CP colors ==========
-//
-// For specific usage.
-// Must be prefixed by single underscore and named as: ${goodsname}_{specific}
-
-// Specific: AppBreadcrumb
-$font-size-app-breadcrumb: $font-size-small;
-$lh-app-breadcrumb: $lh-50;
-
-// Specific: AppTextarea
-$bg-app-textarea: $white-color;
-$lh-app-textarea: $lh-14;
-$border-app-textarea: $gray;
-
-// Specific: AppTab
-$text-app-tab: $primary-color;
-$border-app-tab: $primary-color;
-$box-shadow-app-tab: 0 7px 6px -6px rgba($gray-color, 0.54);
-$bg-app-tab-block: $white-color;
-$app-tab-block-height: 37px;
-$box-shadow-app-tab-block: 0 0 10px rgba($black-color, 0.16);
-$font-weight-app-tab-item: $font-weight-bold;
-
-// Specific: AppSelect
-$bg-app-select: $white-color;
-$bg-app-select-invalid: $error-bg-color;
-$text-app-select: $error-color;
-$bg-app-select-disabled: $bg-white;
-$text-app-select-disabled: $input-border-color;
-$bg-app-select-search: transparent;
-$fill-app-select-disabled-indicator: $input-border-color;
-$bg-app-select-disabled-indicator: transparent;
-
-// Specific: AppRequiredMark
-$font-size-app-required-mark: $font-size-9;
-$lh-app-required-mark: $lh-15;
-$text-app-required-mark: $required-color;
-$bg-app-required-mark: $required-bg-color;
-
-// Specific: AppRadioGroup
-$text-app-radio-group: $error-color;
-
-// Specific: AppRadio
-$box-shadow-app-radio: 0 0 7px $black-transparent;
-
-// Specific: AppPanel
-$bg-app-panel: $white-color;
-$box-shadow-app-panel: 0 3px 10px rgba($black-color, 0.16);
-
-// Specific: AppPagination
-$caret-size-caret-size: 8px;
-$caret-size-page-size: 26px;
-$text-app-pagination: $primary-color;
-$text-app-pagination-disabled: $dimmed-blue-color;
-$text-app-pagination-current: $white-color;
-$text-app-pagination-dash: $black-color;
-$bg-app-pagination-current: $primary-color;
-$lh-app-pagination: $lh-26;
-
-// Specific: AppOptionalMark
-$font-size-app-optional-mark: $font-size-9;
-$lh-app-optional-mark: $lh-15;
-$text-app-optional-mark: $optional-color;
-$bg-app-optional-mark: $optional-bg-color;
-
-// Specific: AppLoading
-$bg-app-loading: hsla(0, 0%, 100%, 0.9);
-$box-shadow-app-loading: 0 3px 9px $black-color;
-
-// Specific: AppDialog
-$bg-app-dialog: $black-transparent-5;
-$bg-app-dialog-dialog: $white-color;
-$box-shadow-app-dialog: 0 3px 9px $black-transparent-light;
-
-// Specific: AppDatepicker
-$bg-app-datepicker: $input-bg;
-$lh-app-datepicker: $lh-14;
-
-// Specific: AppCheckbox
-$box-size-app-checkbox: 18px;
-$bg-app-checkbox: $white-color;
-$bg-app-checkbox-checked: $primary-color;
-$border-app-checkbox: $gray;
-$border-app-checkbox-checked: $white-color;
-$box-shadow-app-checkbox: 0 3px 6px $input-shadow-color;
-
 // Specific: AppButton
 $font-size-app-button: $font-size-small;
 $font-weight-app-button: $font-weight-bold;
-$lh-app-button: $lh-16;
+$lh-app-button: $lh-14;
 $text-app-button-default: $primary-color;
 $text-app-button-default-hover: $white-color;
 $text-app-button-primary: $white-color;

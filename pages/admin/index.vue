@@ -38,30 +38,27 @@ export default Vue.extend({
 
 <style scoped="scss">
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
+  font-family: sans-serif;
   font-size: 100px;
-  color: #35495e;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
   padding-bottom: 15px;
+  font-size: 42px;
+  font-weight: 300;
+  word-spacing: 5px;
 }
 
 .links {
