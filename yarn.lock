@@ -1516,13 +1516,13 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@primer/css@^16.0.2":
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/@primer/css/-/css-16.0.2.tgz#f59060f160bf284927c8452f1cc03374e5d89812"
-  integrity sha512-9QOrsWf31RiMnVWgkY7DA30pk6L6KKZJNoeU5CaxJQMPgf9IH48oTBpCAbFc1377x/DwA7pLxLIf+5tQbpdneQ==
+"@primer/css@^16.1.2":
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/@primer/css/-/css-16.1.2.tgz#ca766e0db8380ebf23c14e76120fb005e56e4bd9"
+  integrity sha512-Hl8x1RK/vYSW48y/nGNISHd7QYn6iPtLj1Fvqd8fiEKBTP1nUqB8pMvygG6HfEhT1lBJhTCnf1QcvLnSSkXw8A==
   dependencies:
     "@primer/octicons" "^9.1.1"
-    "@primer/primitives" "^4.0.1"
+    "@primer/primitives" "4.1.0"
 
 "@primer/octicons@^9.1.1":
   version "9.6.0"
@@ -1531,10 +1531,10 @@
   dependencies:
     object-assign "^4.1.1"
 
-"@primer/primitives@^4.0.1":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.0.2.tgz#18cf3af2797c9b77108288814e241fa71a7d5ac0"
-  integrity sha512-aNuNi3U5NixEwfo8rb3SYycQ31CdNfoL/Kcaea90tD0MUNDqAmIgicYQswXOkHU2KnxkWw1089nBAu81aiYRiw==
+"@primer/primitives@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.1.0.tgz#33d83b38e2021f294f446c41bca65f5d7ffd898a"
+  integrity sha512-bACUj3Xl2z5dnYKE/76BpNqN4/JXFngf26dbb7Goph2PU5wcf+Z2Kk3nXwtJPGG8JByO+FcU3gpZjLNoyuLMHQ==
 
 "@stylelint/postcss-css-in-js@^0.37.2":
   version "0.37.2"
