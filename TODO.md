@@ -22,7 +22,7 @@
 Ref:http://rdash.github.io/#/
 
 - [ ] Crate Sidebar
-  - [ ] Body Tag Customize auto margin 8px to 0px
+  - [ ] Body Tag Customize auto margin 8px to 0px (add global.css)
   - [ ] 
 
 https://menta.work/plan/2163/6767

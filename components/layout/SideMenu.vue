@@ -1,19 +1,9 @@
 <template>
   <div class="wrapper">
-    <div
-      class="side-menu"
-      :class="sidebarClass"
-      :style="[{ 'max-width': sidebarWidth }]"
-    >
+    <div class="side-menu">
       <div class="title">Title</div>
-      <div class="list">
-        <div>aaa1</div>
-      </div>
-      <div class="list">
-        <div>aaa2</div>
-      </div>
-      <div class="list">
-        <div>aaa3</div>
+      <div v-for="item in menu" :key="item.key" class="column">
+        <div>{{ item.title }}</div>
       </div>
     </div>
   </div>

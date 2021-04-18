@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <Nuxt />
+  <div class="main">
+    <side-menu :menu="menu" />
+    <Nuxt class="container" />
   </div>
 </template>
 
@@ -9,3 +10,27 @@
   display: flex;
 }
 </style>
+<script lang="ts">
+import Vue from 'vue'
+import SideMenu from '~/components/layout/SideMenu.vue'
+
+export default Vue.extend({
+  components: { SideMenu },
+  computed: {
+    menu() {
+      return [
+        {
+          href: '/home',
+          title: 'ホーム',
+          icon: 'home',
+        },
+        {
+          href: '/home2',
+          title: 'ホーム2',
+          icon: 'home',
+        },
+      ]
+    },
+  },
+})
+</script>
