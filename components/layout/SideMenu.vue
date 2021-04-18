@@ -21,17 +21,7 @@ export default Vue.extend({
     },
   },
   data() {
-    return {
-      mobileItem: null,
-      mobileItemPos: 0,
-      mobileItemHeight: 0,
-      mobileItemTimeout: null,
-      activeShow: null,
-      parentHeight: 0,
-      parentWidth: 0,
-      parentOffsetTop: 0,
-      parentOffsetLeft: 0,
-    }
+    return {}
   },
   computed: {},
   watch: {},

@@ -21,8 +21,19 @@
 
 Ref:http://rdash.github.io/#/
 
-- [ ] Crate Sidebar
-  - [ ] Body Tag Customize auto margin 8px to 0px (add global.css)
-  - [ ] 
+- [x] Crate Sidebar
+  - [x] Body Tag Customize auto margin 8px to 0px (add global.css)
+  - [x] menu import Array List
+
+### Commnet
+
+- [ ] アニメーション
+- [ ] サイドメニューの折りたたみ
+- [ ] 折りたたみ
+
+#### data, computed, methodの使い分け
+- data: コンポーネントの初期化時にセットするプロパティ。ユーザーの操作によって変更されることがある。
+- computed: dataおよびpropsの値によって算出される読み取り専用プロパティ。
+- method: イベントハンドラとして使うのが主な用途。表示する値の算出にmethodを呼び出してしまう
 
 https://menta.work/plan/2163/6767
