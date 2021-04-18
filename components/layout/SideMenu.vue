@@ -55,8 +55,7 @@ export default Vue.extend({
 
     > .title {
       height: 35px;
-      font-size: 12px;
-      line-height: 40px;
+      font-size: $font-size-11;
       color: $text-app-button-disable;
     }
   }

@@ -1,6 +1,8 @@
 <template>
   <div class="side-menu-item">
-    <div>{{ item.title }}</div>
+    <transition name="fade-animation">
+      <span class="title">{{ item.title }}</span>
+    </transition>
   </div>
 </template>
 
@@ -11,7 +13,7 @@ export default Vue.extend({
   name: 'SideMenuItem',
   props: {
     item: {
-      type: Object,
+      type: Array,
       required: true,
     },
   },
@@ -43,9 +45,16 @@ export default Vue.extend({
 
     > .title {
       height: 35px;
-      font-size: 12px;
-      line-height: 40px;
+      font-size: $font-size-11;
       color: $text-app-button-disable;
+
+      &.fade-animation-enter-active {
+        transition: opacity 0.15s ease, visibility 0.15s ease;
+      }
+
+      &.fade-animation-leave-active {
+        transition: opacity 0.15s ease, visibility 0.15s ease;
+      }
     }
   }
 }
