@@ -54,8 +54,8 @@ export default Vue.extend({
     list-style: none;
 
     > .title {
-      height: 35px;
-      font-size: $font-size-11;
+      height: 65px;
+      font-size: $font-size-large;
       color: $text-app-button-disable;
     }
   }

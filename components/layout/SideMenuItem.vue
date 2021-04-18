@@ -1,19 +1,23 @@
 <template>
   <div class="side-menu-item">
     <transition name="fade-animation">
-      <span class="title">{{ item.title }}</span>
+      <side-menu-link :url="item.href">
+        <span class="title">{{ item.title }}</span>
+      </side-menu-link>
     </transition>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import SideMenuLink from '~/components/layout/SideMenuLink.vue'
 
 export default Vue.extend({
   name: 'SideMenuItem',
+  components: { SideMenuLink },
   props: {
     item: {
-      type: Array,
+      type: Object,
       required: true,
     },
   },
@@ -25,37 +29,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.wrapper {
-  position: fixed;
-  width: 250px;
-  height: 100%;
-  padding: 0;
-  background: $bg-side-menu;
-
-  > .side-menu {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-indent: 20px;
-    list-style: none;
-
-    > .title {
-      height: 35px;
-      font-size: $font-size-11;
-      color: $text-app-button-disable;
-
-      &.fade-animation-enter-active {
-        transition: opacity 0.15s ease, visibility 0.15s ease;
-      }
-
-      &.fade-animation-leave-active {
-        transition: opacity 0.15s ease, visibility 0.15s ease;
-      }
-    }
-  }
+.side-menu-item {
+  position: relative;
+  display: block;
+  width: 100%;
 }
 </style>

@@ -30,10 +30,15 @@ Ref:http://rdash.github.io/#/
 - [ ] アニメーション
 - [ ] サイドメニューの折りたたみ
 - [ ] 折りたたみ
+- [ ] Nuxt LinkでPropsの値を渡せない
 
 #### data, computed, methodの使い分け
 - data: コンポーネントの初期化時にセットするプロパティ。ユーザーの操作によって変更されることがある。
 - computed: dataおよびpropsの値によって算出される読み取り専用プロパティ。
 - method: イベントハンドラとして使うのが主な用途。表示する値の算出にmethodを呼び出してしまう
+
+#### slot
+- コンポーネントのタグにHTMLの子要素を入れ込むことができる
+
 
 https://menta.work/plan/2163/6767
