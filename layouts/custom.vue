@@ -20,13 +20,13 @@ export default Vue.extend({
     menu() {
       return [
         {
-          href: '/home',
-          title: 'ホーム',
+          href: '/dashboard',
+          title: 'Dashboard',
           icon: 'home',
         },
         {
-          href: '/home2',
-          title: 'ホーム2',
+          href: '/table',
+          title: 'Table',
           icon: 'home',
         },
       ]

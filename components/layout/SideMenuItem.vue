@@ -1,33 +1,21 @@
 <template>
-  <div class="wrapper">
-    <div class="side-menu">
-      <div class="title">Title</div>
-      <side-menu-item
-        v-for="item in menu"
-        :key="item.key"
-        class="sidemenu"
-        :item="item"
-      />
-    </div>
+  <div class="side-menu-item">
+    <div>{{ item.title }}</div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import SideMenuItem from '~/components/layout/SideMenuItem.vue'
 
 export default Vue.extend({
-  name: 'SideMenu',
-  components: { SideMenuItem },
+  name: 'SideMenuItem',
   props: {
-    menu: {
-      type: Array,
+    item: {
+      type: Object,
       required: true,
     },
   },
-  data() {
-    return {}
-  },
+  data() {},
   computed: {},
   watch: {},
   methods: {},
