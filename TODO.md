@@ -17,10 +17,12 @@
   - [x] Check Page
     https://nuxt-admin-config.vercel.app/admin
 
-Create Page
+### Create Page
 
 Ref:http://rdash.github.io/#/
 
 - [ ] Crate Sidebar
+  - [ ] Body Tag Customize auto margin 8px to 0px
   - [ ] 
 
+https://menta.work/plan/2163/6767
