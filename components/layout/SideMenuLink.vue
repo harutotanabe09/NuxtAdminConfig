@@ -1,8 +1,6 @@
 <template>
   <div class="side-menu-link">
-    <!-- TODO: nuxt link how to pass -->
-    <nuxt-link to=":url">
-      {{ url }}
+    <nuxt-link :to="url">
       <slot />
     </nuxt-link>
   </div>

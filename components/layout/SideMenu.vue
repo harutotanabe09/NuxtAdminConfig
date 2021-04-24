@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="side-menu">
+    <aside class="side-menu">
       <div class="title">Title</div>
       <side-menu-item
         v-for="item in menu"
@@ -8,7 +8,7 @@
         class="sidemenu"
         :item="item"
       />
-    </div>
+    </aside>
   </div>
 </template>
 

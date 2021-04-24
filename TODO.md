@@ -30,7 +30,7 @@ Ref:http://rdash.github.io/#/
 - [ ] アニメーション
 - [ ] サイドメニューの折りたたみ
 - [ ] 折りたたみ
-- [ ] Nuxt LinkでPropsの値を渡せない
+- [x] Nuxt LinkでPropsの値を渡せない → :to属性で渡す
 
 #### data, computed, methodの使い分け
 - data: コンポーネントの初期化時にセットするプロパティ。ユーザーの操作によって変更されることがある。

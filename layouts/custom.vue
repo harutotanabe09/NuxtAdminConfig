@@ -1,31 +1,38 @@
 <template>
   <div class="main">
     <side-menu :menu="menu" />
-    <Nuxt class="container" />
+    <div class="body">
+      <app-header />
+      <Nuxt class="content" />
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.container {
-  display: flex;
+.main {
+  .body {
+    position: fixed;
+    left: 250px;
+  }
 }
 </style>
 <script lang="ts">
 import Vue from 'vue'
 import SideMenu from '~/components/layout/SideMenu.vue'
+import AppHeader from '~/components/layout/AppHeader.vue'
 
 export default Vue.extend({
-  components: { SideMenu },
+  components: { AppHeader, SideMenu },
   computed: {
     menu() {
       return [
         {
-          href: '/dashboard',
+          href: '/dashboard/',
           title: 'Dashboard',
           icon: 'home',
         },
         {
-          href: '/table',
+          href: '/table/',
           title: 'Table',
           icon: 'home',
         },
