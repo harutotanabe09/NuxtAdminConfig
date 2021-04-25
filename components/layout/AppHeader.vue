@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="header">
         <div class="col">
-          <div class="page">DashBoard Item</div>
+          <div class="page">Header</div>
         </div>
       </div>
     </div>
